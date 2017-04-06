@@ -5,20 +5,19 @@
     margin: auto;
     background-color: lightgray;
 }
-table td{
+.head{
+    float: left;
     width: 60px;
+    height: 32px;
     text-align: center;
+    background-color: lightgray;
     padding-bottom: 7px;
     outline: none;
 }
-table td:hover,
-table td:focus{
-    width: 60px;
-    padding-bottom: 7px;
-    text-align: center;
+.head:hover{
     background-color: white;
-    outline: none;
 }
+
 
 #box2{
     width: 300px;
