@@ -1,11 +1,11 @@
-#box1{
+#ui-box-head{
     width: 300px;
     height: 30px;
     border: 1px solid lightgray;
     margin: auto;
     background-color: lightgray;
 }
-.head{
+.ui-box-head-title{
     float: left;
     width: 60px;
     height: 32px;
@@ -14,12 +14,12 @@
     padding-bottom: 7px;
     outline: none;
 }
-.head:hover{
+.ui-box-head-title:hover{
     background-color: white;
 }
 
 
-#box2{
+#ui-box-bodytop{
     width: 300px;
     height: 80px;
     border-right: 1px solid lightgray;
@@ -27,21 +27,21 @@
     border-bottom: 1px solid lightgray;
     margin: auto;
 }
-.t21{
+.ui-box-bodytop-textup{
     width: 250px;
     margin-top: 10px;
     margin-right: 20px;
     margin-bottom: 10px;
     margin-left: 20px;
 }
-.t22{
+.ui-box-bodytop-textdown{
      width: 250px;
      margin-right: 20px;
      margin-bottom: 10px;
      margin-left: 20px;
  }
 
-#box3{
+#ui-box-bodymidup{
     width: 300px;
     height: 150px;
     border-right: 1px solid lightgray;
@@ -49,27 +49,28 @@
     border-bottom: 1px solid lightgray;
     margin: auto;
 }
-#img{
+.ui-box-bodymidup-left{
     float: left;
     width: 50px;
     height: 50px;
     margin-left: 15px;
     margin-top: 20px;
-    margin-bottom:0px
+    margin-bottom:0px;
+    background-color: orangered;
 }
-.t31{
+.ui-box-bodymidup-rightup{
     width: 185px;
     float: left;
     margin-top: 20px;
     margin-left:20px;
     margin-bottom: 10px;
 }
-.t32{
+.ui-box-bodymidup-rightdowm{
     width: 185px;
     float: left;
     margin-left: 20px;
 }
-.b1{
+.ui-box-bodymidup-button{
     width: 80px;
     height:30px;
     margin-left: 13px;
@@ -80,8 +81,12 @@
     background-color: orangered;
     text-align: center;
 }
+.ui-box-bodymidup-button,
+.ui-box-bodymidup-button:active{
+    outline: none;
+}
 
-#box4{
+#ui-box-bodymiddown{
     width: 300px;
     height: 50px;
     border-right: 1px solid lightgray;
@@ -89,7 +94,7 @@
     border-bottom: 1px solid lightgray;
     margin: auto;
 }
-.t4{
+.ui-box-bodymiddown-text{
     width: 250px;
     margin-top: 15px;
     margin-right: 20px;
@@ -97,7 +102,7 @@
     margin-left: 20px;
 }
 
-#box5{
+#ui-box-bodydown{
     width: 300px;
     height: 270.5px;
     border-right: 1px solid lightgray;
@@ -105,45 +110,52 @@
     border-bottom: 1px solid lightgray;
     margin: auto;
 }
-.box51{
+.ui-box-bodydown-leftup{
     float: left;
     width: 119.4px;
     height: 180px;
     border-right: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
 }
-.box52{
+.ui-box-bodydown-leftup-content{
+    width: 60px;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 40px;
+    background-color: orangered;
+}
+.ui-box-bodydown-mid{
     float: left;
     width: 59.2px;
     height: 89.5px;
     border-right: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
 }
-.box53{
+.ui-box-bodydown-right{
     float: left;
     width: 59.2px;
     height: 89.5px;
     border-bottom: 1px solid lightgray;
 }
-.box54{
+.ui-box-bodydown-bottom{
     float: left;
     width: 59.2px;
     height: 89.5px;
     border-right: 1px solid lightgray;
 }
-.box55{
+.ui-box-bodydown-last{
     float: left;
     width: 59.2px;
     height: 89.5px;
 }
-.box{
+.ui-box-bodydown-square{
     width: 35px;
     height:35px;
     margin-left: 12px;
     margin-top: 20px;
     background-color: orangered;
 }
-.word{
+.ui-box-bodydown-word{
     color: gray;
     text-align: center;
     font-size: 10px;
