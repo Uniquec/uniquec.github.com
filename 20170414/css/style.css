@@ -1,0 +1,14 @@
+body{
+    background-color: azure;
+    display: flex;
+}
+a{
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px lightblue;
+}
+a:hover{
+    color: coral;
+}
