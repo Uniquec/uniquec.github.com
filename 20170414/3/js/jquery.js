@@ -10,7 +10,7 @@ $(document).ready(function () {
     });
     $(".ui-box-add").click(function () {
         var num = $(".ui-box-line").length + 1;
-        var newdiv = "<div class='ui-box-line'><div class='ui-box-line-num'>"+num+"</div><div class='ui-box-line-content'></div><div class='ui-box-line-button'>Delete</div></div>"
+        var newdiv = "<div class='ui-box-line'><div class='ui-box-line-num'>"+num+"</div><input type='text' class='ui-box-line-content'><div class='ui-box-line-button'>Delete</div></div>"
         if(num > 11){
             alert("最多添加11个");
         }
