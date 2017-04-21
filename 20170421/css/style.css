@@ -1,0 +1,351 @@
+.ui-box{
+    width: 686px;
+    height: 350px;
+}
+.ui-box-up{
+    width: 686px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ui-box-up-smalltitle{
+    width: 80px;
+    height: 25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: linear-gradient(#3095ce, #1b88c4);
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.ui-box-up-orangesquare{
+    width: 20px;
+    height: 20px;
+    background-color: #FD6710;
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.ui-box-up-message{
+    box-sizing: border-box;
+    width: 686px;
+    height: 50px;
+    border-top: 5px solid #1B88C4;
+    border-right: 1px solid #C0C0C0;
+    border-left: 1px solid #C0C0C0;
+    background: linear-gradient(#FFFFFF, #F2F3F3);
+}
+.flystart{
+    color: #D20000;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 3px;
+}
+.redspan{
+    color: #D20000;
+    font-weight: bold;
+    margin-left: 8px;
+}
+.blackspan{
+    color: black;
+}
+.arrow{
+    color: #D20000;
+}
+.margin20{
+    margin-left: 20px;
+}
+.flytime{
+    margin-left: 10px;
+}
+.boldspan{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.ui-box-up-tip{
+    float: left;
+    box-sizing: border-box;
+    width: 686px;
+    height: 25px;
+    border: 1px solid #C0C0C0;
+    background-color: #FFFBDE;
+}
+.ui-box-up-tip-icon{
+    width: 90px;
+    height: 25px;
+    margin-left: 590px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    font-size: 12px !important;
+    margin-top: 7px;
+}
+.a_icon{
+    font-size: 12px;
+    margin-top: 3px;
+    margin-left: -10px;
+}
+.ui-box-body-title{
+    width: 695px;
+    height: 20px;
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ui-title-road{
+    width: 401px;
+    height: 18px;
+    padding: -5px;
+    background-color: #CEDCE8;
+    text-align: center;
+    color: #607A90;
+    font-size: 12px;
+}
+.ui-title-location{
+    width: 64px;
+    height: 18px;
+    padding: -5px;
+    margin-left: 2px;
+    background-color: #CEDCE8;
+    text-align: center;
+    color: #607A90;
+    font-size: 12px;
+}
+.ui-title-cost{
+    width: 69px;
+    height: 18px;
+    padding: -5px;
+    margin-left: 2px;
+    background-color: #CEDCE8;
+    text-align: center;
+    color: #607A90;
+    font-size: 12px;
+}
+.ui-title-appoint{
+    width: 80px;
+    height: 18px;
+    padding: -5px;
+    margin-left: 2px;
+    background-color: #CEDCE8;
+    text-align: center;
+    color: #607A90;
+    font-size: 12px;
+}
+.ui-title-distance{
+    width: 64px;
+    height: 18px;
+    padding: -5px;
+    margin-left: 2px;
+    background-color: #CEDCE8;
+    text-align: center;
+    color: #607A90;
+    font-size: 12px;
+}
+.ui-box-body-stopmessage{
+    box-sizing: border-box;
+    width: 686px;
+    height: 40px;
+    border-left: 1px solid #C0C0C0;
+    border-right: 1px solid #C0C0C0;
+    border-bottom: 1px solid #C0C0C0;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cloudf{
+    color: #29A5E4;
+    margin-left: 77px;
+    margin-top: 13px;
+}
+.cloud{
+    color: white;
+    font-size: 10px !important;
+    margin-left: -15px;
+    margin-top: 16px !important;
+}
+.ui-stopmessage-square{
+    float: left;
+    box-sizing: border-box;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #ffffff;
+    margin-left: 8px;
+    margin-top: 13px;
+    background: linear-gradient(#4AB9E6 17%,#0D7DD0,#26A0D9 83%);
+}
+.ui-stopmessage-name{
+    width: 50px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+.ui-stopmessage-location{
+    width: 55px;
+    margin-left: 242px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.a_map{
+    font-size: 12px;
+}
+.stoptime{
+    margin-left: 34px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.ui-stopmessage-ssquaref{
+    width: 12px;
+    height: 12px;
+    background: linear-gradient(#7CC0E3, #1F94D0);
+    margin-left: 38px;
+    margin-top: 12px;
+}
+.ui-stopmessage-ssquare{
+    width: 8px;
+    height: 8px;
+    margin-left: -10px;
+    margin-top: 14px;
+    background-color: #FFFFFF;
+}
+.ui-stopmessage-mlocation{
+    width: 55px;
+    height: 18px;
+    margin-left: 247px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ui-mlocation_message{
+    font-size: 12px;
+    margin-left: 0px;
+}
+.ui-stopmessage-map{
+    width: 160px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.ui-stopmessage-maplast{
+    width: 114px;
+    height: 40px;
+    margin-left: 96px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.ui-box-body-carmessage{
+    box-sizing: border-box;
+    width: 686px;
+    height: 40px;
+    border-bottom: 1px solid #C0C0C0;
+    background-color: white;
+    display: flex;
+}
+.ui-carmessage-time{
+    width: 104px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ui-carmessage-specifictime{
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-top: 5px;
+}
+.ui-carmessage-lasttime{
+    font-size: 12px;
+    margin-left: 36px;
+    margin-top: -5px;
+}
+.ui-carmessage-rail1{
+    box-sizing: border-box;
+    width: 8px;
+    height: 40px;
+    border-left: 2px solid #96C7D8;
+    border-right: 2px solid #96C7D8;
+    background: linear-gradient(#96C7D8 0%,#96C7D8 22.5%,#FFFFFF 22.5%,#FFFFFF 40%,#96C7D8 40%,#96C7D8 57.5%,#FFFFFF 57.5%,#FFFFFF 75%,#96C7D8 75%,#96C7D8 92.5%,#FFFFFF 92.5%,#FFFFFF 100%);
+}
+.ui-carmessage-rail2{
+    box-sizing: border-box;
+    width: 8px;
+    height: 40px;
+    border-left: 2px solid #96C7D8;
+    border-right: 2px solid #96C7D8;
+    background: linear-gradient(#96C7D8 0%,#96C7D8 22.5%,#FFFFFF 22.5%,#FFFFFF 40%,#96C7D8 40%,#96C7D8 57.5%,#FFFFFF 57.5%,#FFFFFF 75%,#96C7D8 75%,#96C7D8 100%);
+}
+.ui-carmessage-road{
+    box-sizing: border-box;
+    width: 290px;
+    height: 40px;
+    border-right: 1px solid #CDCDCD;
+}
+.bluebus{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #0096F9;
+}
+.greenbus{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #01865A;
+}
+.ui-carmessage-road-boldspan{
+    font-size: 12px;
+    font-weight: bold;
+    color: #26A8FE;
+}
+.ui-carmessage-road-boldspan2{
+    font-size: 12px;
+    font-weight: bold;
+    color: #028D5E;
+}
+.ui-carmessage-road-span{
+    font-size: 12px;
+    color: #0069A3;
+}
+.ui-carmessage-location{
+    box-sizing: border-box;
+    width: 66px;
+    height: 40px;
+    border-right: 1px solid #CDCDCD;
+}
+.ui-carmessage-money{
+    box-sizing: border-box;
+    width: 71px;
+    height: 40px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 3px;
+    border-right: 1px solid #CDCDCD;
+}
+.ui-carmessage-appoint{
+    box-sizing: border-box;
+    width: 82px;
+    height: 40px;
+    border-right: 1px solid #CDCDCD;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ui-carmessage-appoint-select{
+    font-size: 12px;
+    margin-left: 22px;
+    margin-top: 5px;
+}
+.ui-carmessage-appoint-money{
+    font-size: 12px;
+    margin-left: 20px;
+}
+.ui-carmessage-distance{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.arrow2{
+    color: #000;
+    margin-left: 25px;
+}
