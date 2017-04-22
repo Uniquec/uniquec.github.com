@@ -10,18 +10,18 @@
 }
 .ui-box-up-smalltitle{
     width: 80px;
-    height: 25px;
+    height: 24px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    padding-top: 5px;
     background: linear-gradient(#3095ce, #1b88c4);
     text-align: center;
     color: white;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 14px;
 }
 .ui-box-up-orangesquare{
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     background-color: #FD6710;
     text-align: center;
     color: white;
@@ -32,37 +32,74 @@
     box-sizing: border-box;
     width: 686px;
     height: 50px;
-    border-top: 5px solid #1B88C4;
+    border-top: 4px solid #1B88C4;
     border-right: 1px solid #C0C0C0;
     border-left: 1px solid #C0C0C0;
+    padding-top: 2px;
     background: linear-gradient(#FFFFFF, #F2F3F3);
 }
+.redsmallspan{
+    color: #D20000;
+    font-size: 13px;
+    margin-left: -5px;
+}
 .flystart{
+    font-size: 13px;
     color: #D20000;
     font-weight: bold;
     margin-left: 10px;
     margin-right: 3px;
 }
+.flyend{
+    font-size: 13px;
+    color: #D20000;
+    font-weight: bold;
+    margin-left: -2px;
+}
+.lasttime{
+    font-size: 13px;
+    color: #D20000;
+    font-weight: bold;
+    margin-left: 1px;
+}
 .redspan{
+    font-size: 13px;
     color: #D20000;
     font-weight: bold;
     margin-left: 8px;
 }
 .blackspan{
+    font-size: 13px;
     color: black;
 }
 .arrow{
+    font-size: 13px;
     color: #D20000;
+    margin-left: 1px;
 }
 .margin20{
+    font-size: 13px;
     margin-left: 20px;
 }
 .flytime{
+    font-size: 13px;
     margin-left: 10px;
 }
 .boldspan{
     font-weight: bold;
     margin-left: 10px;
+}
+.transfer{
+    color: #D20000;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 1px;
+}
+.distance{
+    font-size: 13px;
+    color: black;
+    font-weight: bold;
+    margin-left: 1px;
 }
 .ui-box-up-tip{
     float: left;
@@ -75,7 +112,7 @@
 .ui-box-up-tip-icon{
     width: 90px;
     height: 25px;
-    margin-left: 590px;
+    margin-left: 580px;
     display: flex;
     justify-content: space-between;
 }
