@@ -1,0 +1,17 @@
+#myMap{
+    height: 600px;
+}
+#btn{
+    background-color: #FF9000;
+    color: #FFFFFF;
+    text-align: center;
+    width: 80px;
+    height: 20px;
+    font-size: 12px;
+    float: right;
+    margin: 3px;
+    margin-top: 10%;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #FECA82;
+}
